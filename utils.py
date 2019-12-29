@@ -12,7 +12,7 @@ label_colours_top_bottom = [(255,85,0), (0,0,85),(0,119,221), (0,85,85),(85,51,0
 
 
 def resize_and_pad(im, desired_size):
-    # old_size is in (height, width) format
+    # old_size is in (height, width)  format
     old_size = im.shape[:2]
     ratio = float(desired_size) / max(old_size)
 
